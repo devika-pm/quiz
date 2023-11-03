@@ -1,0 +1,94 @@
+*{
+    background-image: url(https://i.gifer.com/J4x.gif);
+    background-repeat: no-repeat;
+   background-size: cover;
+    background-attachment: fixed;
+}
+.head{
+    margin-top: 20vh;
+    padding: 5px;
+}
+.quest{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+    margin-left:20rem;
+    width: 50rem;
+    height: 50px;
+    border: none;
+    border-radius: 8px ;
+    padding: 2px;
+    cursor: pointer;
+    transition:transform 460ms;
+    opacity: rgb(36, 77, 138);
+    text-shadow: 0 0 3px #6dea06, 0 0 5px #d1fc24;
+    
+}
+.quizque{
+    width: 50rem;
+    height: 50px;
+    border: none;
+    border-radius: 8px ;
+    padding: 2px;
+    cursor: pointer;
+    transition:transform 460ms;
+    opacity: rgb(36, 77, 138);
+}
+.quest:hover{
+    opacity: rgb(96, 108, 119);
+    transform:scale(1.06);
+}
+.butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+   
+}
+.answer{
+    display: flex;
+    justify-content: space-around;
+    border:solid;
+    border-color: #07ec12;
+    padding: 5px;
+    margin-right:3rem;
+    
+    font-size: 25px;
+    
+    width: 20rem;
+    height: 4rem;
+    transition:transform 460ms;
+    cursor: pointer;
+    
+    text-shadow: 0 0 3px #2fc836, 0 0 5px #c0ec10;
+}
+.answer:hover{
+    transform:scale(1.06);
+}
+.reset{
+    margin-top: 5vh;
+    
+}
+.butt2{
+    width: 9rem;
+    height: 3rem;
+    font-size: 2rem;
+    
+    transition:transform 460ms;
+    border: solid;
+    border-radius: 8px;
+    animation-direction:reverse(0.3s);
+    text-shadow: 0 0 3px #07ec12, 0 0 5px #94e104;
+    border-color: #07ec12;
+}
+.butt2:hover{
+    transform:scale(1.06);
+}
+.correct{
+    background: green;
+    color: green;
+}
+.score{
+    margin-top: 10rem;
+}
